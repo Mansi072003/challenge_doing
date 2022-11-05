@@ -1,0 +1,126 @@
+#sue {
+  background-color: rgb(239, 153, 48);
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: x-large;
+  text-align: center;
+  line-height: 60px;
+  padding: 30px 40px;
+}
+
+article {
+  font-style: oblique;
+  font-size: x-large;
+  text-align: center;
+  /* line-height: 0.1px; */
+  background-color: rgb(243, 162, 207);
+}
+h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+aside p {
+  font-size: 27px;
+  font-weight: bold;
+}
+aside a {
+  font-style: italic;
+  font-size: 25px;
+  color: blueviolet;
+  border: 2px solid #1098ad;
+  background-color: antiquewhite;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul {
+  list-style: lower-alpha;
+  color: #1098ad;
+}
+.first {
+  border-top: 5px solid rgb(198, 179, 197);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: burlywood;
+}
+li:last-child {
+  font-style: italic;
+}
+/* pseudo class */
+li:last-child {
+  font-style: bold;
+}
+li:nth-child(odd) {
+  color: rgb(4, 90, 116);
+}
+aside a:hover {
+  color: rgb(240, 125, 115);
+  font-weight: bold;
+  text-decoration: underline rgb(6, 84, 174);
+}
+aside a:active {
+  background-color: black;
+  font-style: italic;
+  padding: 20px;
+  margin-left: 30px;
+}
+/* resolving conflicts  */
+#copyright {
+  color: rgb(6, 40, 163);
+}
+.copyright {
+  color: burlywood;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green;
+}
+
+body {
+  border: 5px solid black;
+  padding: 50px;
+}
+button {
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.cart:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}
+.due {
+  width: 100%;
+  height: auto;
+}
+aside {
+  background-color: antiquewhite;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto;  this is a shortcut i have provide here  */
+  border: 4px solid black;
+}
+.cart{
+    background-color: black;
+    border:none;
+    font-size:20px;
+    text-transform:uppercase;
+    padding:15px;
+    width:100%;
+}
